@@ -1,0 +1,1921 @@
+{
+ "colorSpace": "Gamma (PlayerSettings m_ActiveColorSpace 0): hex values are sRGB as authored",
+ "toonParams_material0": {
+  "_FresnelMax": 1.5,
+  "_FresnelMin": 0.0,
+  "_FresnelShadowMax": 0.45,
+  "_FresnelShadowMin": 0.0,
+  "_OutlineLightingType": 0.0,
+  "_OutlineLightingTypeURP": 0.0,
+  "_OutlineMaxWidth": 1.0,
+  "_OutlineMinWidth": 1.0,
+  "_OutlinePixelSizeType": 1.0,
+  "_OutlineTextureLOD": 5.0,
+  "_OutlineTextureType": 0.0,
+  "_OutlineWidth": 3.0,
+  "_RampBands": 1.0,
+  "_RampBandsSmoothing": 1.0,
+  "_RampOffset": 0.0,
+  "_RampScale": 1.0,
+  "_RampSmoothing": 0.4,
+  "_RampThreshold": 0.773,
+  "_RampType": 2.0,
+  "_RimMax": 1.0,
+  "_RimMin": 0.5,
+  "_SpecularHighlights": 1.0,
+  "_SpecularMapType": 0.0,
+  "_SpecularRoughness": 0.5,
+  "_SpecularToonSize": 0.04,
+  "_SpecularToonSmoothness": 1.0,
+  "_SpecularType": 1.0,
+  "_UseAlphaTest": 0.0,
+  "_UseEmission": 0.0,
+  "_UseFresnelReflections": 1.0,
+  "_UseFresnelShadow": 0.0,
+  "_UseMatCap": 0.0,
+  "_UseMatCapMask": 0.0,
+  "_UseMobileMode": 1.0,
+  "_UseNormalMap": 1.0,
+  "_UseOcclusion": 0.0,
+  "_UseOutline": 1.0,
+  "_UseReflections": 0.0,
+  "_UseRim": 0.0,
+  "_UseRimLightMask": 1.0,
+  "_UseShadowTexture": 0.0,
+  "_UseSpecular": 1.0
+ },
+ "materials": [
+  {
+   "id": 0,
+   "name": "Blue",
+   "material": "BlueBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#0073FF",
+   "highlight": "#FFFFFF",
+   "shadow": "#001556",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "BlueBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#007BFF",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#001556",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "BlueBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#0062FF",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#001556",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "name": "DarkBlue",
+   "material": "DarkBlueBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#0E39CC",
+   "highlight": "#FFFFFF",
+   "shadow": "#2C4388",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "DarkBlueBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#0E48CC",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#2C4388",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "DarkBlueBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#0E2BCC",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#2C4388",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Black",
+   "material": "BlackBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#2F2F2F",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "BlackBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#393939",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "BlackBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#292929",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Green",
+   "material": "GreenBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#3FAC1D",
+   "highlight": "#FFFFFF",
+   "shadow": "#0C7F06",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "GreenBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#27A001",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#0C7F06",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "GreenBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#4FB52F",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#0C7F06",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Orange",
+   "material": "OrangeBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#FF6200",
+   "highlight": "#FFFFFF",
+   "shadow": "#813100",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "OrangeBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#FF5300",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "OrangeBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#FF6A00",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Pink",
+   "material": "PinkBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C04983",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "PinkBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#B23A74",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "PinkBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#F555A3",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Purple",
+   "material": "PurpleBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7829E1",
+   "highlight": "#FFFFFF",
+   "shadow": "#8229A6",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "PurpleBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#7113ED",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#8229A6",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "PurpleBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#6600ED",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#8229A6",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Red",
+   "material": "RedBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#A00D0D",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "RedBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#A70000",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "RedBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#B00000",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Turquoise",
+   "material": "TurquoiseBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#2FAACF",
+   "highlight": "#FFFFFF",
+   "shadow": "#007CA0",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "TurquoiseBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#1EA1C8",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#007CA0",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "TurquoiseBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#059DCF",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#007CA0",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Yellow",
+   "material": "YellowBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#D2A626",
+   "highlight": "#FFFFFF",
+   "shadow": "#B25900",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "YellowBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#D29826",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#B25900",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "YellowBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#D09622",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#B25900",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "White",
+   "material": "WhiteBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#CCCCCC",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "WhiteBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#A7A7A7",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "WhiteBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#B2B2B2",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Brown",
+   "material": "BrownBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#613E23",
+   "highlight": "#FFFFFF",
+   "shadow": "#3B0E00",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "BrownBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#55361F",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#3B0E00",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "BrownBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#714929",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#3B0E00",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "DarkGreen",
+   "material": "DarkGreenBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#046000",
+   "highlight": "#FFFFFF",
+   "shadow": "#062A00",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "DarkGreenBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#045400",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#062A00",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "DarkGreenBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#057200",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#062A00",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Emerald",
+   "material": "EmeraldBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#1D6553",
+   "highlight": "#FFFFFF",
+   "shadow": "#004C39",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "EmeraldBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#1A5A4A",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#004C39",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "EmeraldBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#1F6B58",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#004C39",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Lilac",
+   "material": "LilacBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#BF83E2",
+   "highlight": "#FFFFFF",
+   "shadow": "#3A004E",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "LilacBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#A06EBE",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#3A004E",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "LilacBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#CF8EF5",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#3A004E",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Sage",
+   "material": "SageBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#959D67",
+   "highlight": "#FFFFFF",
+   "shadow": "#0C7F06",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "SageBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#7F8753",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#0C7F06",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "SageBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#89915B",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#0C7F06",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Salmon",
+   "material": "SalmonBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C37B7C",
+   "highlight": "#FFFFFF",
+   "shadow": "#7F5051",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "SalmonBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#AF6F70",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#7F5051",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "SalmonBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#D28586",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#7F5051",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Lavender",
+   "material": "LavenderBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#878EC0",
+   "highlight": "#FFFFFF",
+   "shadow": "#2C2F3F",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "LavenderBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#757BAE",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#2C2F3F",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "LavenderBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#747CB6",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#2C2F3F",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Terracotta",
+   "material": "TerracottaBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#8D404D",
+   "highlight": "#FFFFFF",
+   "shadow": "#4A2229",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "TerracottaBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#843A47",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#4A2229",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "TerracottaBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#934250",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#4A2229",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Parmesan",
+   "material": "ParmesanBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C4AA70",
+   "highlight": "#FFFFFF",
+   "shadow": "#5B524A",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "ParmesanBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#A68F5B",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "ParmesanBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#D3B675",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Brick",
+   "material": "BrickBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#B2544A",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "BrickBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#9D4A41",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "BrickBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#CB5D51",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Gray",
+   "material": "GrayBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#888795",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "GrayBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#7B7A88",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "GrayBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#918F9F",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "DarkGray",
+   "material": "DarkGrayBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#474652",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "DarkGrayBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#51505D",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "DarkGrayBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#3A3A42",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "DarkPurple",
+   "material": "DarkPurpleBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#39205D",
+   "highlight": "#FFFFFF",
+   "shadow": "#8229A6",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "DarkPurpleBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#2F1B4D",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#8229A6",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "DarkPurpleBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#402468",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#8229A6",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "GypsyPink",
+   "material": "GypsyPinkBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#AA1D62",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "GypsyPinkBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#8C1750",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "GypsyPinkBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#BF1E6D",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "PowderPink",
+   "material": "PowderPinkBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#CF8AB2",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "PowderPinkBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#B6749A",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "PowderPinkBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#DE92BE",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#922D71",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "PastelOrange",
+   "material": "PastelOrangeBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#D2914F",
+   "highlight": "#FFFFFF",
+   "shadow": "#813100",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "PastelOrangeBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#BC8349",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "PastelOrangeBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#E29C55",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#813100",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Burgundy",
+   "material": "BurgundyBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#6F0F0F",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "BurgundyBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#6B0E0E",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "BurgundyBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#801010",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#551212",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Olive",
+   "material": "OliveBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7B730A",
+   "highlight": "#FFFFFF",
+   "shadow": "#4E4906",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "OliveBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#6D6609",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#4E4906",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "OliveBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#827A0C",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#4E4906",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "DustyTeal",
+   "material": "DustyTealBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#5C8782",
+   "highlight": "#FFFFFF",
+   "shadow": "#354E4B",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "DustyTealBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#5A8A84",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#304644",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "DustyTealBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#5F8D88",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#28403E",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "MilkyBrown",
+   "material": "MilkyBrownBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#9F6A44",
+   "highlight": "#FFFFFF",
+   "shadow": "#5F3420",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "MilkyBrownBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#95623E",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#5F3420",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "MilkyBrownBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#A87048",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#5F3420",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Toffee",
+   "material": "ToffeeBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7B4827",
+   "highlight": "#FFFFFF",
+   "shadow": "#352014",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "ToffeeBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#714123",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#352014",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "ToffeeBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#844C29",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#352014",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "NeonPurple",
+   "material": "NeonPurpleBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#9328A7",
+   "highlight": "#FFFFFF",
+   "shadow": "#6E177F",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "NeonPurpleBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#89269B",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#6E177F",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "NeonPurpleBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#9E27B4",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#6E177F",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "SharkGray",
+   "material": "SharkGrayBlock",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#666476",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "color": "#E7E7E7",
+   "specular": "#4D4D4D",
+   "useSubMaterials": true,
+   "subMaterials": [
+    {
+     "material": "SharkGrayBlock 1",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#585665",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    },
+    {
+     "material": "SharkGrayBlock 2",
+     "shader": "Loom_Toon Hybrid.shader",
+     "_BaseColor": "#57546C",
+     "_Color": "#E7E7E7",
+     "_HColor": "#FFFFFF",
+     "_OutlineColor": "#000000",
+     "_RimColor": "#CCCCCC80",
+     "_SColor": "#333333",
+     "_SpecularColor": "#4D4D4D"
+    }
+   ]
+  }
+ ],
+ "shooterMaterials": [
+  {
+   "id": 0,
+   "pixelName": "Blue",
+   "material": "Blue",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#4E84FF",
+   "highlight": "#FFFFFF",
+   "shadow": "#2C4388",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 1,
+   "pixelName": "DarkBlue",
+   "material": "DarkBlue",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#39539D",
+   "highlight": "#FFFFFF",
+   "shadow": "#2C4388",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 2,
+   "pixelName": "Black",
+   "material": "Black",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#2F2F2F",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 3,
+   "pixelName": "Green",
+   "material": "Green",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#4AAC2C",
+   "highlight": "#FFFFFF",
+   "shadow": "#015B38",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 4,
+   "pixelName": "Orange",
+   "material": "Orange",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#EE752A",
+   "highlight": "#FFFFFF",
+   "shadow": "#592200",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 5,
+   "pixelName": "Pink",
+   "material": "Pink",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C04983",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 6,
+   "pixelName": "Purple",
+   "material": "Purple",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#663AA4",
+   "highlight": "#FFFFFF",
+   "shadow": "#8229A6",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 7,
+   "pixelName": "Red",
+   "material": "Red",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#B02B2B",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 8,
+   "pixelName": "Turquoise",
+   "material": "Turquoise",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#3DAFAF",
+   "highlight": "#FFFFFF",
+   "shadow": "#0D7474",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 9,
+   "pixelName": "Yellow",
+   "material": "Yellow",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#D2A626",
+   "highlight": "#FFFFFF",
+   "shadow": "#B25900",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 10,
+   "pixelName": "White",
+   "material": "White",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#CCCCCC",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 11,
+   "pixelName": "Brown",
+   "material": "Brown",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#4D2F18",
+   "highlight": "#FFFFFF",
+   "shadow": "#3B0E00",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 12,
+   "pixelName": "DarkGreen",
+   "material": "DarkGreen",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#046000",
+   "highlight": "#FFFFFF",
+   "shadow": "#062A00",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 13,
+   "pixelName": "Emerald",
+   "material": "Emerald",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#1D6553",
+   "highlight": "#FFFFFF",
+   "shadow": "#004C39",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 14,
+   "pixelName": "Lilac",
+   "material": "Lilac",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#BF83E2",
+   "highlight": "#FFFFFF",
+   "shadow": "#3A004E",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 15,
+   "pixelName": "Sage",
+   "material": "Sage",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#959D67",
+   "highlight": "#FFFFFF",
+   "shadow": "#015B38",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 16,
+   "pixelName": "Salmon",
+   "material": "Salmon",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C37B7C",
+   "highlight": "#FFFFFF",
+   "shadow": "#7F5051",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 17,
+   "pixelName": "Lavender",
+   "material": "Lavender",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#878EC0",
+   "highlight": "#FFFFFF",
+   "shadow": "#2C2F3F",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 18,
+   "pixelName": "Terracotta",
+   "material": "Terracotta",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#8D404D",
+   "highlight": "#FFFFFF",
+   "shadow": "#4A2229",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 19,
+   "pixelName": "Parmesan",
+   "material": "Parmesan",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#C4AA70",
+   "highlight": "#FFFFFF",
+   "shadow": "#592200",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 20,
+   "pixelName": "Brick",
+   "material": "Brick",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#B2544A",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 21,
+   "pixelName": "Gray",
+   "material": "Gray",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#888795",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 22,
+   "pixelName": "DarkGray",
+   "material": "DarkGray",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#474652",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 23,
+   "pixelName": "DarkPurple",
+   "material": "DarkPurple",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#39205D",
+   "highlight": "#FFFFFF",
+   "shadow": "#8229A6",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 24,
+   "pixelName": "GypsyPink",
+   "material": "GypsyPink",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#AA1D62",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 25,
+   "pixelName": "PowderPink",
+   "material": "PowderPink",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#CF8AB2",
+   "highlight": "#FFFFFF",
+   "shadow": "#922D71",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 26,
+   "pixelName": "PastelOrange",
+   "material": "PastelOrange",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#D2914F",
+   "highlight": "#FFFFFF",
+   "shadow": "#592200",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 27,
+   "pixelName": "Burgundy",
+   "material": "Burgundy",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7A1010",
+   "highlight": "#FFFFFF",
+   "shadow": "#551212",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 28,
+   "pixelName": "Olive",
+   "material": "Olive",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7B730A",
+   "highlight": "#FFFFFF",
+   "shadow": "#4E4906",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 29,
+   "pixelName": "DustyTeal",
+   "material": "DustyTeal",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#5C8782",
+   "highlight": "#FFFFFF",
+   "shadow": "#015B38",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 30,
+   "pixelName": "MilkyBrown",
+   "material": "MilkyBrown",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#9F6A44",
+   "highlight": "#FFFFFF",
+   "shadow": "#5F3420",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 31,
+   "pixelName": "Toffee",
+   "material": "Toffee",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#7B4827",
+   "highlight": "#FFFFFF",
+   "shadow": "#352014",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 32,
+   "pixelName": "NeonPurple",
+   "material": "NeonPurple",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#9328A7",
+   "highlight": "#FFFFFF",
+   "shadow": "#6E177F",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  },
+  {
+   "id": 33,
+   "pixelName": "SharkGray",
+   "material": "SharkGray",
+   "shader": "Loom_Toon Hybrid.shader",
+   "base": "#666476",
+   "highlight": "#FFFFFF",
+   "shadow": "#333333",
+   "texture": "Texture_Shooter.png",
+   "ramp": [
+    0.77,
+    0.62
+   ],
+   "outline": [
+    "#000000",
+    2.5,
+    1.0
+   ]
+  }
+ ]
+}
